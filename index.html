@@ -12,28 +12,31 @@
 
   <!-- Custom Styles -->
 <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="bootstrap.css">
 </head>
 
 <body>
-  <h1 class="display-1">Abdushakur</h1>
-  <p>Nothing to see here...</p>
-  <nav class="navbar navbar-expand-md nav-tabs" style="background: blanchedalmond">
-    <div class="container-fluid">
-      <a href="#" class="navbar-brand">
-        <img src="logo.jpg" height="60" width="70" alt="SSA" class="rounded-circle">
-      </a>
-      <button type="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Info">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse justify-content-end" id="Info">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-l
+    <nav class="navbar navbar-expand-md" style="background: transparent">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">
+          <img src="logo.png" height="60" width="70" alt="SSA" class="rounded-circle">
+        </a>
+        <button type="button" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#Info">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="offcanvas offcanvas-end" id="Info">
+       <div class="offcanvas-header">
+          <img src="logo.png" height="60" width="70" alt="SSA" class="rounded-circle" class="offcanvas-title" id="Info"></img>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body justify-content-end">
+          <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">CONTACT ME</a>
+            </li>
+          </ul>
+         </div>
+        </div>
   <!-- Project -->
   <script src="main.js"></script>
   <script src="bootstrap.bundle.js"></script>
