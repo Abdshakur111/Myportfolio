@@ -7,3 +7,17 @@
 .auto{
   color: red;
 }
+.thick{
+  width: 50%;
+  border: 2px solid navy;
+}
+.aboutme{
+  font-size: 30px;
+  color: deepskyblue;
+}
+.flex{
+  display: flex;
+}
+u{
+  color: deepskyblue;
+}
