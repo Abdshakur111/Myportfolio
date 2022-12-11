@@ -21,3 +21,11 @@
 u{
   color: deepskyblue;
 }
+#preloader { 
+  background: red url(loader.gif) no-repeat center center;
+  background-size: 50%;
+  height: 100vh; 
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
