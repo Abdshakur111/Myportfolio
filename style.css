@@ -2,7 +2,7 @@
   color: blue;
 }
 .dev{
-  font-size: 7rem;
+  font-size: 2rem;
 }
 .auto{
   color: red;
@@ -28,4 +28,10 @@ u{
   width: 100%;
   position: fixed;
   z-index: 100;
+}
+.white{
+  color: white;
+}
+alt{
+  color: white;
 }
